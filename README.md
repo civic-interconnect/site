@@ -1,5 +1,10 @@
 # Site: Civic Interconnect
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
+[![Deploy Docs](https://github.com/civic-interconnect/site/actions/workflows/deploy-docs.yml/badge.svg?branch=main)](https://github.com/civic-interconnect/site/actions/workflows/deploy-docs.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/civic-interconnect/site/security/dependabot)
+
+
 > Documentation site for Civic Interconnect.
 > This repository is docs-only and does not publish a Python package.
 

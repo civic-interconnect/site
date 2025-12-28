@@ -2,9 +2,9 @@
 # Configuration file for MkDocs (Automated project documentation generator)
 
 site_name: civic-interconnect
-site_url: https://civic-interconnect.github.io/civic-interconnect/
-repo_url: https://github.com/civic-interconnect/civic-interconnect
-site_description: Civic Exchange Protocol site documentation.
+site_url: https://civic-interconnect.github.io/site/
+repo_url: https://github.com/civic-interconnect/site
+site_description: Organization website.
 site_author: civic-interconnect
 docs_dir: docs
 site_dir: site
@@ -12,7 +12,7 @@ copyright: Copyright &copy; 2025 Civic Interconnect
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/civic-interconnect/civic-interconnect
+      link: https://github.com/civic-interconnect/site
   languages:
     - name: English
       code: en
