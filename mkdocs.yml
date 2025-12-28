@@ -13,8 +13,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/civic-interconnect/civic-interconnect
-  version:
-    provider: mike
   languages:
     - name: English
       code: en
@@ -52,11 +50,6 @@ theme:
 plugins:
   - search
   - include-markdown
-  - mike:
-      version_selector: true
-      css_dir: css
-      javascript_dir: js
-      canonical_version: latest
   - mkdocstrings:
       handlers:
         python:
@@ -102,6 +95,7 @@ markdown_extensions:
   - pymdownx.tabbed # Tabbed content
 
 nav:
+  - Site: index.md
   - Home: en/index.md
   - Quick Start: en/quick-start.md
   - Schemas: en/schemas.md
