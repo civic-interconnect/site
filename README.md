@@ -4,10 +4,8 @@
 [![Deploy Docs](https://github.com/civic-interconnect/site/actions/workflows/deploy-docs.yml/badge.svg?branch=main)](https://github.com/civic-interconnect/site/actions/workflows/deploy-docs.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/civic-interconnect/site/security/dependabot)
 
-
 > Documentation site for Civic Interconnect.
 > This repository is docs-only and does not publish a Python package.
-
 
 ## Install
 
@@ -47,3 +45,11 @@ uvx pre-commit run --all-files
 uv run mkdocs build --strict
 uv run mkdocs serve
 ```
+
+## Annotations
+
+[Annotations.md](./ANNOTATIONS.md)
+
+## License
+
+[MIT](./LICENSE)
