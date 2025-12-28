@@ -1,0 +1,37 @@
+[project]
+name = "civic-interconnect-site"
+version = "0.1.0"
+description = "Organization website for Civic Interconnect"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+authors = [{ name = "Civic Interconnect", email = "info@civic-interconnect.org" }]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+  "validate-pyproject",
+]
+docs = [
+  "mike",
+  "mkdocs",
+  "mkdocs-gen-files",
+  "mkdocs-git-revision-date-localized-plugin",
+  "mkdocs-include-markdown-plugin",
+  "mkdocs-literate-nav",
+  "mkdocs-material",
+  "mkdocs-static-i18n",
+  "mkdocstrings[python]>=0.18",
+  "pymdown-extensions>=10.14",
+  "ruff",
+]
+
+[project.urls]
+"Home" = "https://civic-interconnect.github.io/site/"
+"Repo" = "https://github.com/civic-interconnect/site"
+"Issues" = "https://github.com/civic-interconnect/site/issues"
+
+[tool.uv]
+package = false
